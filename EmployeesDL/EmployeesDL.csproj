@@ -68,6 +68,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>EmployeesDataModel.edmx</DependentUpon>
     </Compile>
+    <Compile Include="IEmployeeFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

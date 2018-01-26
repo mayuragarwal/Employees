@@ -6,11 +6,11 @@ namespace EmployeesService.Controllers
 {
     public class EmployeesController : ApiController
     {
+        IEmployeeFactory employeeFactory = new EmployeeFactory();
+
         public IEnumerable<Employee> Get()
         {
-            var employeeFactory = new EmployeeFactory();
-                return employeeFactory.GetEmployees();
-            
+            return employeeFactory.GetEmployees();
         }
     }
 }

@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace EmployeesDL
 {
-    public class EmployeeFactory
+    public class EmployeeFactory : IEmployeeFactory
     {
         public IEnumerable<Employee> GetEmployees()
         {
